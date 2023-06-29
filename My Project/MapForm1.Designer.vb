@@ -223,7 +223,7 @@ Partial Class MapForm1
         Me.MaximizeBox = False
         Me.Name = "MapForm1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "GUIDE Konum Arayüzü"
+        Me.Text = "Konum Arayüzü"
         Me.pnlKonum.ResumeLayout(False)
         Me.pnlKonum.PerformLayout()
         Me.pnlUzaklik.ResumeLayout(False)
