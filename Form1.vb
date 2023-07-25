@@ -333,13 +333,6 @@ Public Class Form1
                     Catch ex As InvalidOperationException
                         Exit Do
 
-                        'Catch ex As Exception
-                        'txtDurum.AppendText(ex.ToString)
-                        'txtDurum.AppendText(vbNewLine & hyiVeriRoket(0) & vbNewLine & hyiVeriRoket(6))
-                        'Threading.Thread.Sleep(1000)
-                        'Exit Do
-
-
                     Catch ex As UnauthorizedAccessException
                         txtDurum.AppendText(vbNewLine & "> Hakem yer istasyonu (" & comPort & ") bağlantısı koptu.")
                         Exit Do
@@ -487,18 +480,35 @@ Public Class Form1
 
     'Gelen veri paketinin bütünlüğünün sınandığı yer
     Function checksum(veriPaketi) As Boolean
-        'Checksum kontrolü ilerleyen zamanlarda eklenecektir.
-        'Veri paketinin bütünlüğü regex yardımıyla sınanmaktadır.
-        Dim dogruluk As Boolean
-        Dim regexp As Regex
-        regexp = New Regex("<\[([\+|-]\d{3,4}\.\d{2,2},){4,5}([\+|-]\d{2,2}\.\d{6,6},{0,1}){2,2}\]\d{3,3}\*>")
-        Dim kontrolVeri As Boolean = regexp.IsMatch(veriPaketi)
+        Dim _rem As Byte = &H41
+        Dim chrVeriPaketi() As Char
 
-        If kontrolVeri Then
+        chrVeriPaketi = veriPaketi.ToCharArray
+
+        For i As Integer = 3 To 70
+            _rem = _rem Xor Convert.ToByte(chrVeriPaketi(i))
+
+            For j As Integer = 1 To 8
+                If _rem And &H80 Then
+                    _rem = CByte((_rem << 1) Xor &H7)
+                Else
+                    _rem <<= 1
+                End If
+            Next
+        Next
+
+        Dim dogruluk As Boolean
+        Dim crc() As String
+
+        crc = veriPaketi.Split("]")
+        crc(1) = crc(1).Remove(3)
+
+        If CInt(crc(1)) = _rem Then
             dogruluk = True
         Else
             dogruluk = False
         End If
+
         Return dogruluk
     End Function
 

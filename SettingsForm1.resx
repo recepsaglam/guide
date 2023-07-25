@@ -394,7 +394,7 @@ paketi ile de oynama yapmak zorundadır. Yoksa oluşacak karışıklıktan mües
   <data name="ptAeronist.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABFMAAADkCAIAAADbxvwYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAM5VJREFUeF7t3XmcVNWZxvH0Sm/QNNiswy4goIKKKAgIEgII6gxBGTTKroioaAgR
+        vgAADr4B6kKxwAAAM5VJREFUeF7t3XmcVNWZxvH0Sm/QNNiswy4goIKKKAgIEgII6gxBGTTKroioaAgR
         GQQC6MQFBjEQd0FGRARcQAUVQeOCptlFUDbZ12ZtoNfMmeENH0Y4fU9V3bq36tTv+1cM571V9z21nKf6
         Lr/6BwAAAADYjuQDAAAAwH4kHwAAAAD2I/kAAAAAsB/JBwAAAID9SD4AAAAA7EfyAQAAAGA/kg8AAAAA
         +5F8AAAAANiP5AMAAADAfiQfAAAAAPYj+QAAAACwH8kHAAAAgP1IPgAAAADsR/IBAAAAYD+SDwAAAAD7
@@ -889,7 +889,7 @@ paketi ile de oynama yapmak zorundadır. Yoksa oluşacak karışıklıktan mües
   <data name="ptGuide.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAA/7JJREFUeF7snXV8FFf3/4k7kgRNICTBHYK7u7u7FHdooUVarDjF3R2Ka9ECxWlL
+        vQAADr0BR/uQrQAA/7JJREFUeF7snXV8FFf3/4k7kgRNICTBHYK7u7u7FHdooUVarDjF3R2Ka9ECxWlL
         aamXep+6fvu0T/s7v/nccJe7k7Ob1WQ3mT/eL8jOHd3Z+cw590iW//f//h8ZGBh4Bt9//z09fPiQXn31
         VTp06BCtX7+e5s6dS2PHjqVevXpR8+bNqXbt2lS1alVKSkqiMmXKUPHixalQoUIUFxdHMTExlCtXLsqR
         IweFh4dTlixZzMBnWIYxGIt1sC62gW1hm9g29oF9YZ/YN44Bx4JjwrHhGH/44Qf2HAwMDNIHQ9ANDNKI

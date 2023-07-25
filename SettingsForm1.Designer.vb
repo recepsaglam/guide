@@ -210,7 +210,7 @@ Partial Class SettingsForm1
         Me.lblInfo.Name = "lblInfo"
         Me.lblInfo.Size = New System.Drawing.Size(230, 34)
         Me.lblInfo.TabIndex = 2
-        Me.lblInfo.Text = "Son Güncelleme :: 15.06.23 @ 15:40" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Recep Sağlam"
+        Me.lblInfo.Text = "Son Güncelleme :: 25.07.23 @ 15:10" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Recep Sağlam"
         '
         'lblGuide
         '
