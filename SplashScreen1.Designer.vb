@@ -34,7 +34,7 @@ Partial Class SplashScreen1
         '
         Me.lblGuide.AutoSize = True
         Me.lblGuide.Font = New System.Drawing.Font("Century Gothic", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.lblGuide.Location = New System.Drawing.Point(706, 311)
+        Me.lblGuide.Location = New System.Drawing.Point(793, 356)
         Me.lblGuide.Name = "lblGuide"
         Me.lblGuide.Size = New System.Drawing.Size(238, 84)
         Me.lblGuide.TabIndex = 1
@@ -43,7 +43,7 @@ Partial Class SplashScreen1
         'ptGuide
         '
         Me.ptGuide.Image = CType(resources.GetObject("ptGuide.Image"), System.Drawing.Image)
-        Me.ptGuide.Location = New System.Drawing.Point(400, 186)
+        Me.ptGuide.Location = New System.Drawing.Point(489, 247)
         Me.ptGuide.Name = "ptGuide"
         Me.ptGuide.Size = New System.Drawing.Size(298, 289)
         Me.ptGuide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -54,7 +54,7 @@ Partial Class SplashScreen1
         '
         Me.ptAeronist.BackgroundImage = CType(resources.GetObject("ptAeronist.BackgroundImage"), System.Drawing.Image)
         Me.ptAeronist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ptAeronist.Location = New System.Drawing.Point(713, 264)
+        Me.ptAeronist.Location = New System.Drawing.Point(800, 309)
         Me.ptAeronist.Name = "ptAeronist"
         Me.ptAeronist.Size = New System.Drawing.Size(220, 54)
         Me.ptAeronist.TabIndex = 12
@@ -65,7 +65,7 @@ Partial Class SplashScreen1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1370, 749)
+        Me.ClientSize = New System.Drawing.Size(1540, 845)
         Me.Controls.Add(Me.lblGuide)
         Me.Controls.Add(Me.ptAeronist)
         Me.Controls.Add(Me.ptGuide)

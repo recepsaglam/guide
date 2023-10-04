@@ -64,6 +64,7 @@ Partial Class SettingsForm1
         '
         'TabPage1
         '
+        Me.TabPage1.BackColor = System.Drawing.Color.White
         Me.TabPage1.Controls.Add(Me.grpVeriPaketiNot)
         Me.TabPage1.Controls.Add(Me.grpVeriGorevYuku)
         Me.TabPage1.Controls.Add(Me.grpVeriRoket)
@@ -74,7 +75,6 @@ Partial Class SettingsForm1
         Me.TabPage1.Size = New System.Drawing.Size(752, 407)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Veri Paketi Bilgisi"
-        Me.TabPage1.UseVisualStyleBackColor = True
         '
         'grpVeriPaketiNot
         '
@@ -147,6 +147,7 @@ Partial Class SettingsForm1
         '
         'TabPage2
         '
+        Me.TabPage2.BackColor = System.Drawing.Color.White
         Me.TabPage2.Controls.Add(Me.ptAeronist)
         Me.TabPage2.Controls.Add(Me.lblSurumGecmisi)
         Me.TabPage2.Controls.Add(Me.lblSurumler)
@@ -160,7 +161,6 @@ Partial Class SettingsForm1
         Me.TabPage2.Size = New System.Drawing.Size(752, 407)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Hakkında"
-        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'ptAeronist
         '

@@ -478,6 +478,10 @@ Public Class Form1
         txtDate.Text = Format(Now, "HH:mm" & vbNewLine & "dd.MM.yyyy" & vbNewLine & "ddddddddd")
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     'Gelen veri paketinin bütünlüğünün sınandığı yer
     Function checksum(veriPaketi) As Boolean
         Dim _rem As Byte = &H41
